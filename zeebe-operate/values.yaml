@@ -19,6 +19,9 @@ resources:
     cpu: 1000m
     memory: 2Gi
 
+
+nodeSelector: 
+
 ingress:
   enabled: true
   annotations:
